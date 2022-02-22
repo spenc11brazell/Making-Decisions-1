@@ -6,20 +6,20 @@
   If it is not, console log "Coding has its challenges."
 */
 
-let lovesCode = true
+// let lovesCode = true
 
-if(lovesCode === true){
-  console.log('I love to code!')
-} else {
-  console.log("Coding has its challenges")
-}
+// if(lovesCode === true){
+//   console.log('I love to code!')
+// } else {
+//   console.log("Coding has its challenges")
+// }
 
 
 // For problems 2-3 use the following lines of code:
-var amysAge = 29
-var brittanisAge = 34
-var amysBirthYear = 1991
-var brittanisBirthYear = 1986
+// var amysAge = 29
+// var brittanisAge = 34
+// var amysBirthYear = 1991
+// var brittanisBirthYear = 1986
 
 ////////// PROBLEM 2 //////////
 
@@ -27,13 +27,13 @@ var brittanisBirthYear = 1986
   Using an if statement and a comparison operator, create code that will check if Amy or Brittani is older, and then console.log '{name} is older'. Hint: Consider what will happen if they are the same age. Handle this situation.
 */
 
-if(amysAge > brittanisAge){
-  console.log('Amy is older')
-} else if(brittanisAge > amysAge){
-  console.log("Brittani is older")
-} else {
-  console.log("Amy and Brittani are the same age")
-}
+// if(amysAge > brittanisAge){
+//   console.log('Amy is older')
+// } else if(brittanisAge > amysAge){
+//   console.log("Brittani is older")
+// } else {
+//   console.log("Amy and Brittani are the same age")
+// }
 
 
 ////////// PROBLEM 3 //////////
@@ -42,11 +42,11 @@ if(amysAge > brittanisAge){
   Using an if statement and a comparison operator, create code that will check if Amy and Brittani were born in the same year. If they were, console.log 'Amy & Brittani were born in the same year'. If they were not, console.log 'Amy & Brittani were not born in the same year'
 */
 
-if(amysBirthYear === brittanisBirthYear){
-  console.log('Amy & Brittani were born in the same year')
-} else {
-  console.log("Amy & Brittani were not born in the same year")
-}
+// if(amysBirthYear === brittanisBirthYear){
+//   console.log('Amy & Brittani were born in the same year')
+// } else {
+//   console.log("Amy & Brittani were not born in the same year")
+// }
 
 
 ////////// PROBLEM 4 //////////
@@ -59,7 +59,13 @@ let rain = true
   If it is 80 degrees or above, and raining, one should wear a t-shirt and take an umbrella. If it is between 60 and 80 degrees, and raining, one should wear a rain-jacket. If it is 60 degrees or below, one should wear a jacket and carry an umbrella. Come up with your own clothing suggestions based on those temperature parameters when it is not raining.
 */
 
-//CODE HERE
+if(80 >= 80){
+  console.log('one should wear a swimsuit and goggles')
+} else if(80 <= 60){
+  console.log("one should wear sweats")
+} else{
+  console.log("one should wear a jacket")
+}
 
 
 ////////// PROBLEM 5 //////////
